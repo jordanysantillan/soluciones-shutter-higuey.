@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soluciones Shutter Higuey</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #0077cc;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 50px;
+      text-align: center;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+    .servicios {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Soluciones Shutter Higuey</h1>
+    <p>Seguridad y automatización a tu alcance</p>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#sobre">Sobre Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <h2>Bienvenidos</h2>
+    <p>Ofrecemos soluciones completas en seguridad: cámaras, shutter, puertas seccionadas, toldos electrónicos, cortinas, motores para portones y más.</p>
+  </section>
+
+  <section id="servicios">
+    <h2>Nuestros Servicios</h2>
+    <div class="servicios">
+      <div class="card">
+        <h3>Instalación de Shutter</h3>
+        <p>Protección confiable para tu hogar y negocio.</p>
+      </div>
+      <div class="card">
+        <h3>Puertas y Motores</h3>
+        <p>Automatización de portones y puertas enrollables.</p>
+      </div>
+      <div class="card">
+        <h3>Cámaras de Seguridad</h3>
+        <p>Monitoreo profesional para mayor tranquilidad.</p>
+      </div>
+      <div class="card">
+        <h3>Toldos y Cortinas</h3>
+        <p>Instalación de sistemas electrónicos y personalizados.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre Nosotros</h2>
+    <p>Comenzamos brindando servicios de shutter y hemos ido creciendo para ofrecer una amplia variedad de soluciones en seguridad y automatización. 
+    Nos caracterizamos por la <strong>garantía</strong>, la <strong>responsabilidad</strong> y cumplir siempre con nuestra palabra.</p>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>📞 Teléfono: <strong>809-889-5687</strong></p>
+    <p>📧 Correo: <strong>jordanysaantilla1208@gmail.com</strong></p>
+    <p>📍 Higuey, República Dominicana</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Soluciones Shutter Higuey - Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
